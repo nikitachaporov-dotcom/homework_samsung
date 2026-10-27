@@ -1,9 +1,9 @@
-package Dz1_8;
+package module_01.hm_08;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Num7 {
+public class Hm_007 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

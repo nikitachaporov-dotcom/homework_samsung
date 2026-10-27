@@ -1,8 +1,8 @@
-package Dz1_8;
+package module_01.hm_08;
 
 import java.util.Scanner;
 
-public class Num4 {
+public class Hm_004 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

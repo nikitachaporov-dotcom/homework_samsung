@@ -1,7 +1,7 @@
-package Dz1_8;
+package module_01.hm_08;
 
 import java.util.Scanner;
-public class Num15 {
+public class Hm_013 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -10,12 +10,8 @@ public class Num15 {
             a[i] = scanner.nextInt();
         }
 
-        int count = 0;
-        for (int i = 0; i < n; i++) {
-            if (a[i] > 0) {
-                count++;
-            }
+        for (int i = 0; i < n; i += 2) {
+            System.out.print(a[i] + " ");
         }
-        System.out.println(count);
     }
 }

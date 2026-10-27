@@ -1,7 +1,7 @@
-package Dz1_8;
+package module_01.hm_08;
 
 import java.util.Scanner;
-public class Num17 {
+public class Hm_014 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -10,12 +10,10 @@ public class Num17 {
             a[i] = scanner.nextInt();
         }
 
-        int max = a[0];
-        for (int i = 1; i < n; i++) {
-            if (a[i] > max) {
-                max = a[i];
+        for (int i = 0; i < n; i++) {
+            if (a[i] % 2 == 0) {
+                System.out.print(a[i] + " ");
             }
         }
-        System.out.println(max);
     }
 }

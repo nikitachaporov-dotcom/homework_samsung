@@ -1,5 +1,5 @@
-package Dz1_8;
+package module_01.hm_08;
 
-public class Num12NotSolved {
+public class Hm_012 {
     // Я вообще не понял условие задачи(
 }
